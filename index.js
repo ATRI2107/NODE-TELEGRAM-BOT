@@ -1,5 +1,5 @@
 var TelegramBot=require('node-telegram-bot-api');
-var token='942433115:AAGfnWxRp-gwQwuEMgholCdFYxJgIRrqqMs';
+var token=''; //Enter your boT api token here
 var bot=new TelegramBot(token,{polling: true});
 var request=require('request');
 bot.onText(/\/movie (.+)/,(msg,match)=>{
