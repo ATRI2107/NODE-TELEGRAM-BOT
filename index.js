@@ -12,6 +12,7 @@ bot.onText(/\/movie (.+)/,(msg,match)=>{
             .then(function(msg){
                 var res=JSON.parse(body);
                 bot.sendMessage(chatId,'Result: \nTitle: '+res.Title+'\nYear: '+res.Year+'\nRated: '+res.Rated+'\nReleased: '+res.Released+"\nGenre: "+res.Genre+"\nActors: "+res.Actors+"\nPlot: "+res.Plot);
+                bot.sendPhoto(chatId,res.Poster);
             });
         }
     });
