@@ -1,0 +1,23 @@
+{
+  "name": "NODE-TELEGRAM-BOT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATRI2107/NODE-TELEGRAM-BOT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATRI2107/NODE-TELEGRAM-BOT/issues"
+  },
+  "homepage": "https://github.com/ATRI2107/NODE-TELEGRAM-BOT#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
